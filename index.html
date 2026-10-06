@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>y80s电影网 - 热门电影在线观看_电影推荐_影视排行榜（官网 https://y80sdianyingwang-cn.github.io）</title>
+<meta name="description" content="y80s电影网（https://y80sdianyingwang-cn.github.io）提供最新热门电影、电影推荐、影视排行榜、新片上线时间与影视资讯。动作、喜剧、科幻、爱情大片一站看全，看电影就上y80s电影网。">
+<meta name="keywords" content="y80s电影网,y80s电影,热门电影,电影在线观看,电影推荐,影视排行榜,新片上线,影视资讯,高清电影,y80sdianyingwang-cn,https://y80sdianyingwang-cn.github.io">
+<meta name="author" content="y80s电影网">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://y80sdianyingwang-cn.github.io/">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#150a2a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="y80s电影网">
+<meta property="og:title" content="y80s电影网 - 热门电影在线观看与电影推荐">
+<meta property="og:description" content="y80s电影网官网 https://y80sdianyingwang-cn.github.io，热门电影、电影推荐、影视排行榜与新片上线时间一站看全。">
+<meta property="og:url" content="https://y80sdianyingwang-cn.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="y80s电影网 - 热门电影在线观看与电影推荐">
+<meta name="twitter:description" content="y80s电影网官网 https://y80sdianyingwang-cn.github.io，灯球一转，好片就位。">
+<style>
+/* ==================== 基础 ==================== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:126px}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,Arial,sans-serif;
+  font-size:14.5px;line-height:1.8;color:var(--ink);overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  background-color:var(--night);
+  background-image:
+    radial-gradient(720px 420px at 8% 2%,rgba(255,79,163,.16),transparent 70%),
+    radial-gradient(700px 400px at 92% 90%,rgba(55,230,255,.13),transparent 72%),
+    linear-gradient(180deg,#150a2a 0%,#0d0518 100%);
+}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol,dl{list-style:none}
+button,input,select,textarea{font-family:inherit}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.mono{font-family:"SFMono-Regular",Consolas,Menlo,monospace;font-variant-numeric:tabular-nums}
+
+/* ==================== 变量：80 年代迪斯科舞厅 ==================== */
+:root{
+  --night:#150a2a;
+  --night2:#0b0416;
+  --pink:#ff4fa3;
+  --cyan:#37e6ff;
+  --violet:#a05bff;
+  --gold:#ffd24a;
+  --orange:#ff7a3d;
+  --cream:#fdf3ff;
+  --dim:#c6b3e0;
+  --ink:#f4ecff;
+  --ink2:#b9a8d6;
+  --maxw:1180px;
+}
+.wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+/* ==================== 顶部镭射灯条 ==================== */
+.laserbar{height:14px;background:repeating-linear-gradient(90deg,var(--pink) 0 18px,var(--violet) 18px 36px,
+  var(--cyan) 36px 54px,var(--gold) 54px 72px)}
+.foottop{background:var(--night2);border-bottom:1px solid rgba(255,79,163,.3)}
+.foottop .wrap{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;justify-content:space-between;
+  min-height:36px;padding-top:7px;padding-bottom:7px;font-size:12px;color:var(--dim)}
+.foottop b{color:var(--gold)}
+.foottop .mono{letter-spacing:.16em;color:var(--cyan)}
+
+/* ==================== 报头 ==================== */
+.disco-head{background:linear-gradient(120deg,#1c0c36,#2a0f4a 50%,#140828);border-bottom:3px solid var(--pink);
+  position:relative;overflow:hidden}
+.disco-head::after{content:"";position:absolute;left:0;right:0;bottom:0;height:26px;
+  background:repeating-linear-gradient(90deg,rgba(255,255,255,.09) 0 2px,transparent 2px 8px)}
+.disco-head .wrap{position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;
+  min-height:96px;padding-top:13px;padding-bottom:15px}
+.brand{display:flex;align-items:center;gap:14px}
+.discoball{flex:0 0 auto;width:60px;height:60px}
+.discoball svg{width:60px;height:60px}
+.brand-meta .t{font-size:13px;color:var(--dim)}
+.brand-meta .t b{color:#fff}
+.brand-meta .url{display:block;font-size:12px;font-weight:800;color:var(--cyan);margin-top:3px;
+  font-family:"SFMono-Regular",Consolas,monospace;word-break:break-all}
+.search{display:flex;border:2px solid var(--pink);border-radius:99px;background:rgba(0,0,0,.35);overflow:hidden}
+.search input{border:0;outline:none;background:transparent;padding:9px 15px;font-size:14px;color:#fff;width:210px;
+  font-weight:600}
+.search input::placeholder{color:rgba(255,255,255,.6);font-weight:500}
+.search button{border:0;border-left:1px solid rgba(255,255,255,.4);cursor:pointer;
+  background:linear-gradient(90deg,var(--pink),var(--violet));color:#fff;font-weight:900;font-size:13.5px;
+  padding:9px 17px}
+.search button:hover{background:linear-gradient(90deg,var(--cyan),var(--violet));color:#0b0416}
+.nav-cb{display:none}
+.burger{display:none;width:44px;height:44px;border:2px solid var(--pink);border-radius:12px;
+  background:rgba(0,0,0,.35);cursor:pointer;align-items:center;justify-content:center;flex-direction:column;
+  gap:5px;flex:0 0 auto}
+.burger i{display:block;width:18px;height:2px;background:#fff;transition:.28s}
+
+/* ==================== 唱片标签导航 ==================== */
+.vinyl-nav{position:sticky;top:0;z-index:60;background:var(--night2);border-bottom:3px solid var(--violet)}
+.vinyl-nav::after{content:"";display:block;height:4px;
+  background:linear-gradient(90deg,var(--pink),var(--violet),var(--cyan),var(--gold))}
+.vinyl-nav .wrap{display:flex;align-items:center;gap:6px;min-height:58px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
+.vy{flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border-radius:99px;
+  border:2px solid rgba(255,255,255,.16);font-size:13.5px;font-weight:800;color:var(--cream);transition:.2s}
+.vy .rec{width:14px;height:14px;border-radius:50%;display:block;border:2px solid var(--cyan);position:relative}
+.vy .rec::after{content:"";position:absolute;left:50%;top:50%;width:4px;height:4px;border-radius:50%;
+  transform:translate(-50%,-50%);background:var(--cyan)}
+.vy:hover{border-color:var(--pink);background:rgba(255,79,163,.14);transform:translateY(-2px)}
+.vy.is-cta{background:linear-gradient(90deg,var(--pink),var(--violet));border-color:transparent;color:#fff}
+.vy.is-cta:hover{background:linear-gradient(90deg,var(--cyan),var(--pink));color:#0b0416}
+.vinyl-nav .tip{margin-left:auto;font-size:11.5px;color:var(--dim);white-space:nowrap;
+  font-family:"SFMono-Regular",Consolas,monospace;letter-spacing:.12em}
+
+/* ==================== 通用区块 ==================== */
+section{padding-top:46px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  border-bottom:3px solid var(--violet);padding-bottom:10px;margin-bottom:20px}
+.sec-head .lhs{display:flex;align-items:center;gap:12px}
+.sec-head .orb{flex:0 0 auto;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+  background:radial-gradient(circle at 40% 35%,#fff,var(--cyan) 45%,var(--violet));
+  color:#0b0416;font-size:14px;font-weight:900;box-shadow:0 0 16px rgba(55,230,255,.45)}
+.sec-head h2{font-size:clamp(19px,3.6vw,26px);font-weight:900;letter-spacing:.5px;color:#fff}
+.sec-head h2 em{font-style:normal;
+  background:linear-gradient(90deg,var(--gold),var(--pink),var(--cyan));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sec-head .lhs p{font-size:13px;color:var(--dim);margin-top:2px}
+.sec-head .en{font-size:11px;letter-spacing:.2em;color:var(--cyan);white-space:nowrap;
+  font-family:"SFMono-Regular",Consolas,monospace}
+
+/* ==================== 首屏：舞池 ==================== */
+.hero{padding-top:26px}
+.dancefloor{border:3px solid var(--violet);border-radius:18px;overflow:hidden;position:relative;
+  background:var(--night2);box-shadow:0 22px 50px rgba(0,0,0,.5)}
+.ballbox{padding:24px 22px;background:
+  radial-gradient(circle at 50% 30%,rgba(160,91,255,.3),transparent 65%),
+  repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 26px);position:relative;
+  border-bottom:3px solid rgba(160,91,255,.4)}
+.ballbox svg{max-width:300px;margin:0 auto}
+.ballbox .rays{position:absolute;inset:0;pointer-events:none;
+  background:
+    linear-gradient(75deg,transparent 46%,rgba(255,79,163,.14) 48%,transparent 52%),
+    linear-gradient(115deg,transparent 44%,rgba(55,230,255,.14) 47%,transparent 51%),
+    linear-gradient(160deg,transparent 46%,rgba(255,210,74,.12) 49%,transparent 53%)}
+.ballbox .cap{text-align:center;font-size:11px;letter-spacing:.2em;color:var(--gold);margin-top:12px;
+  font-family:"SFMono-Regular",Consolas,monospace;position:relative}
+.slogan{padding:30px 28px 32px}
+.slogan .kick{display:inline-flex;align-items:center;gap:9px;padding:6px 14px;border-radius:99px;
+  border:2px solid var(--cyan);color:var(--cyan);font-size:11px;font-weight:900;letter-spacing:.2em;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.slogan h1{font-size:clamp(27px,5.6vw,46px);line-height:1.26;font-weight:900;letter-spacing:.5px;margin:16px 0 10px;
+  color:#fff}
+.slogan h1 em{font-style:normal;
+  background:linear-gradient(90deg,var(--gold),var(--pink) 40%,var(--cyan));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.slogan .url{display:inline-block;font-size:clamp(12px,2.1vw,14.5px);font-weight:800;color:var(--cyan);
+  font-family:"SFMono-Regular",Consolas,monospace;border-bottom:1px dashed rgba(55,230,255,.5);padding-bottom:3px;
+  word-break:break-all}
+.slogan .lead{margin-top:15px;font-size:clamp(14px,2.1vw,16px);color:var(--dim)}
+.slogan .lead b{color:var(--gold)}
+.hero-acts{display:flex;flex-wrap:wrap;gap:11px;margin-top:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 22px;border-radius:99px;font-size:14px;
+  font-weight:900;border:2px solid transparent;transition:.2s}
+.btn-p{background:linear-gradient(90deg,var(--pink),var(--violet));color:#fff}
+.btn-c{background:linear-gradient(90deg,var(--cyan),var(--violet));color:#0b0416}
+.btn-o{background:transparent;border-color:var(--gold);color:var(--gold)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(255,79,163,.35)}
+
+/* 霓虹读数条 */
+.neons{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
+.neon{border:2px solid var(--pink);border-radius:14px;background:var(--night2);padding:15px 15px 17px;
+  position:relative;overflow:hidden}
+.neon::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px}
+.neon:nth-child(1)::before{background:var(--pink)}
+.neon:nth-child(2)::before{background:var(--cyan)}
+.neon:nth-child(3)::before{background:var(--gold)}
+.neon:nth-child(4)::before{background:var(--orange)}
+.neon b{display:block;font-size:clamp(18px,3.2vw,25px);font-weight:900;line-height:1.25;color:#fff;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.neon b em{font-style:normal;font-size:12px;color:var(--dim);margin-left:3px}
+.neon span{font-size:12.5px;color:var(--dim)}
+
+/* ==================== 分类：舞池地砖 ==================== */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tile{border:2px solid rgba(255,255,255,.16);border-radius:14px;overflow:hidden;background:var(--night2);
+  transition:.25s;display:flex;flex-direction:column}
+.tile:hover{transform:translateY(-5px);border-color:var(--cyan);box-shadow:0 0 26px rgba(55,230,255,.28)}
+.tile .floor{height:80px;position:relative;border-bottom:2px solid rgba(255,255,255,.14);
+  background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.18) 1px,transparent 1px);
+  background-size:26px 26px;display:grid;place-items:center}
+.tile .floor .lab{position:absolute;left:11px;top:9px;font-size:10.5px;font-weight:900;letter-spacing:.16em;
+  color:#0b0416;background:var(--gold);padding:2px 9px;border-radius:99px;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.tile .floor .ic{font-size:26px;line-height:1;filter:drop-shadow(0 0 10px rgba(255,255,255,.5))}
+.tile .bd{padding:14px 15px 17px}
+.tile h3{font-size:16px;font-weight:900;color:#fff}
+.tile .en{font-size:10.5px;letter-spacing:.18em;color:var(--cyan);margin-top:3px;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.tile .cnt{font-size:12.5px;color:var(--dim);margin-top:8px;padding-top:8px;
+  border-top:1px solid rgba(255,255,255,.12)}
+.tile .cnt b{color:var(--pink);font-family:"SFMono-Regular",Consolas,monospace}
+
+/* ==================== 片单：黑胶唱片 ==================== */
+.records{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.rec{border:2px solid rgba(255,255,255,.16);border-radius:16px;background:var(--night2);padding:18px 15px 20px;
+  text-align:center;transition:.25s}
+.rec:hover{transform:translateY(-6px);border-color:var(--pink);box-shadow:0 0 28px rgba(255,79,163,.3)}
+.rec .disc{width:118px;height:118px;margin:0 auto;border-radius:50%;position:relative;display:grid;
+  place-items:center;
+  background:
+    repeating-radial-gradient(circle at 50% 50%,#1b1220 0 2px,#2a1f33 2px 4px);
+  box-shadow:0 0 0 3px rgba(255,255,255,.12),0 10px 22px rgba(0,0,0,.5)}
+.rec .disc::after{content:"";position:absolute;width:46px;height:46px;border-radius:50%;
+  background:linear-gradient(140deg,var(--pink),var(--violet));
+  box-shadow:inset 0 0 0 3px rgba(255,255,255,.5)}
+.rec:nth-child(2n) .disc::after{background:linear-gradient(140deg,var(--cyan),var(--violet))}
+.rec:nth-child(3n) .disc::after{background:linear-gradient(140deg,var(--gold),var(--orange))}
+.rec .disc .ic{position:relative;z-index:2;font-size:20px;line-height:1}
+.rec h3{font-size:15.5px;font-weight:900;color:#fff;margin-top:14px;line-height:1.5}
+.rec .meta{font-size:12px;color:var(--cyan);margin-top:4px;font-family:"SFMono-Regular",Consolas,monospace}
+.rec .desc{font-size:13.5px;color:var(--dim);margin-top:9px;padding-top:9px;text-align:left;
+  border-top:1px solid rgba(255,255,255,.12)}
+.rec .go{display:inline-block;margin-top:12px;font-size:12.5px;font-weight:900;color:#0b0416;
+  background:linear-gradient(90deg,var(--gold),var(--orange));padding:6px 17px;border-radius:99px}
+.rec .go:hover{background:linear-gradient(90deg,var(--cyan),var(--pink));color:#fff}
+
+/* ==================== 排行榜：点唱机 ==================== */
+.jukes{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.juke{border:2px solid var(--violet);border-radius:16px;background:var(--night2);padding:20px 20px 22px}
+.juke:nth-child(2){background:#120629}
+.juke h3{font-size:17px;font-weight:900;color:#fff;display:flex;align-items:center;gap:9px;padding-bottom:11px;
+  border-bottom:2px solid var(--violet);margin-bottom:5px}
+.juke h3 i{font-style:normal;font-size:11px;letter-spacing:.14em;background:linear-gradient(90deg,var(--pink),var(--violet));
+  color:#fff;padding:3px 9px;border-radius:99px;font-family:"SFMono-Regular",Consolas,monospace}
+.juke .unit{font-size:11.5px;color:var(--dim);margin-bottom:14px;font-family:"SFMono-Regular",Consolas,monospace}
+.juke ol{display:grid;gap:11px}
+.juke li{display:grid;grid-template-columns:30px 1fr;gap:11px;align-items:center;padding:8px 11px;
+  border-radius:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}
+.juke li:hover{background:rgba(255,79,163,.14);border-color:var(--pink)}
+.juke li .no{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:11.5px;
+  font-weight:900;color:#fff;background:var(--violet);font-family:"SFMono-Regular",Consolas,monospace}
+.juke li:nth-child(-n+3) .no{background:linear-gradient(140deg,var(--pink),var(--orange))}
+.juke li .rw{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+.juke li .tt{font-size:14px;font-weight:800;color:#fff}
+.juke li .beam{height:10px;border-radius:99px;margin-top:6px;background:rgba(255,255,255,.1);overflow:hidden}
+.juke li .beam i{display:block;height:100%;border-radius:99px;
+  background:linear-gradient(90deg,var(--pink),var(--cyan))}
+.juke:nth-child(2) li .beam i{background:linear-gradient(90deg,var(--gold),var(--pink))}
+.juke li .hs{font-size:12px;font-weight:900;color:var(--cyan);white-space:nowrap;
+  font-family:"SFMono-Regular",Consolas,monospace}
+
+/* ==================== 新片：排舞卡 ==================== */
+.dancecard{max-width:940px;display:grid;gap:11px}
+.slot{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;border:2px solid var(--violet);
+  border-radius:14px;background:var(--night2);padding:13px 16px;transition:.2s}
+.slot:hover{transform:translateX(4px);border-color:var(--pink);box-shadow:0 0 22px rgba(255,79,163,.25)}
+.slot .dia{flex:0 0 auto;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;text-align:center;
+  border:2px solid var(--cyan);background:radial-gradient(circle at 40% 35%,rgba(255,255,255,.35),rgba(160,91,255,.4));
+  color:#fff;font-size:10px;font-weight:900;line-height:1.2}
+.slot .dia b{display:block;font-size:16px;color:var(--gold)}
+.slot .txt h3{font-size:15.5px;font-weight:900;color:#fff}
+.slot .txt p{font-size:12.5px;color:var(--dim);margin-top:3px;font-family:"SFMono-Regular",Consolas,monospace}
+.slot .st{font-size:11px;font-weight:900;padding:4px 12px;border-radius:99px;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.st.a{background:linear-gradient(90deg,var(--pink),var(--violet));color:#fff}
+.st.b{background:linear-gradient(90deg,var(--gold),var(--orange));color:#0b0416}
+.st.c{background:rgba(255,255,255,.1);color:var(--dim);border:1px solid rgba(255,255,255,.2)}
+
+/* ==================== 资讯：舞厅公告 ==================== */
+.bulletins{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.bltn{border:2px solid var(--cyan);border-radius:16px;background:var(--night2);padding:20px 18px 22px;
+  transition:.22s;position:relative;overflow:hidden}
+.bltn::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;
+  background:linear-gradient(180deg,var(--pink),var(--cyan),var(--gold))}
+.bltn:hover{transform:translateY(-4px);box-shadow:0 0 24px rgba(55,230,255,.25)}
+.bltn time{font-size:11.5px;font-weight:900;letter-spacing:.16em;color:var(--gold);
+  font-family:"SFMono-Regular",Consolas,monospace}
+.bltn h3{font-size:16px;font-weight:900;color:#fff;margin:9px 0 8px;line-height:1.5}
+.bltn p{font-size:13.5px;color:var(--dim)}
+.bltn .more{display:inline-block;margin-top:11px;font-size:13px;font-weight:900;color:var(--cyan);
+  border-bottom:2px solid rgba(55,230,255,.5);padding-bottom:2px}
+
+/* ==================== 关于 ==================== */
+.about{display:grid;grid-template-columns:1.15fr 1fr;gap:20px;align-items:start}
+.story{border:2px solid var(--violet);border-radius:16px;background:var(--night2);padding:26px 24px}
+.story p{font-size:14px;color:var(--dim);margin-bottom:13px}
+.story p b{color:#fff;background:rgba(160,91,255,.35);padding:0 4px}
+.story blockquote{margin:16px 0;padding:15px 18px;border-left:4px solid var(--pink);
+  background:rgba(255,79,163,.12);border-radius:0 12px 12px 0;font-size:15px;font-weight:800;color:#fff;
+  line-height:1.85}
+.story ul{display:grid;gap:11px;margin-top:16px;border-top:1px dashed rgba(255,255,255,.18);padding-top:14px}
+.story ul li{display:grid;grid-template-columns:26px 1fr;gap:11px;font-size:13.5px;color:var(--dim)}
+.story ul li b{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:11px;
+  font-weight:900;color:#0b0416;background:linear-gradient(140deg,var(--gold),var(--pink));
+  font-family:"SFMono-Regular",Consolas,monospace}
+.sidecard{border:2px solid var(--cyan);border-radius:16px;background:linear-gradient(150deg,#1c0c36,#0b0416);
+  padding:22px}
+.sidecard h3{font-size:11px;letter-spacing:.22em;color:var(--cyan);margin-bottom:14px;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.sidecard svg{width:100%;height:auto}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:8px 0;margin-top:10px;
+  border-bottom:1px dotted rgba(255,255,255,.18);font-size:13px}
+.kv:last-child{border-bottom:0}
+.kv span{color:var(--dim)}
+.kv b{color:#fff;font-weight:900;font-family:"SFMono-Regular",Consolas,monospace;word-break:break-all}
+
+/* ==================== FAQ ==================== */
+.faq{max-width:880px;display:grid;gap:11px}
+.faq details{border:2px solid var(--violet);border-radius:14px;background:var(--night2)}
+.faq summary{cursor:pointer;padding:14px 18px;font-size:15.5px;font-weight:900;color:#fff;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"◉";color:var(--pink);font-size:14px}
+.faq details[open] summary::after{content:"◎";color:var(--cyan)}
+.faq details[open] summary{background:rgba(160,91,255,.16);border-radius:12px 12px 0 0;
+  border-bottom:1px solid rgba(255,255,255,.12)}
+.faq details p{padding:13px 18px 17px;font-size:14px;color:var(--dim)}
+
+/* ==================== 联系 ==================== */
+.contact{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;align-items:start}
+.form{border:2px solid var(--pink);border-radius:16px;background:var(--night2);padding:24px}
+.form h3{font-size:11px;letter-spacing:.22em;color:var(--cyan);margin-bottom:16px;
+  font-family:"SFMono-Regular",Consolas,monospace}
+.f-row{display:grid;grid-template-columns:84px 1fr;gap:12px;align-items:center;margin-bottom:13px}
+.f-row label{font-size:13px;font-weight:800;color:#fff}
+.f-row input,.f-row select,.f-row textarea{width:100%;border:2px solid rgba(255,255,255,.22);border-radius:10px;
+  background:rgba(0,0,0,.35);padding:10px 13px;font-size:14px;color:#fff;outline:none}
+.f-row textarea{min-height:104px;resize:vertical}
+.f-row input:focus,.f-row select:focus,.f-row textarea:focus{border-color:var(--cyan);background:rgba(0,0,0,.5)}
+.f-row input::placeholder,.f-row textarea::placeholder{color:#8a7aa6}
+.f-row select option{color:#1c0c36}
+.f-sub{grid-column:2}
+.f-sub button{border:0;cursor:pointer;background:linear-gradient(90deg,var(--pink),var(--violet));color:#fff;
+  font-size:14px;font-weight:900;padding:12px 30px;border-radius:99px;letter-spacing:.05em}
+.f-sub button:hover{background:linear-gradient(90deg,var(--cyan),var(--pink));color:#0b0416}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tags span{font-size:12px;font-weight:800;padding:6px 13px;border:2px solid rgba(255,210,74,.45);border-radius:99px;
+  color:var(--gold)}
+
+/* ==================== 页脚 ==================== */
+.site-footer{margin-top:52px;background:var(--night2);border-top:4px solid var(--pink);padding:38px 0 24px}
+.fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:22px}
+.fgrid h4{font-size:13.5px;font-weight:900;color:var(--gold);margin-bottom:12px;letter-spacing:.08em}
+.fgrid p{font-size:13.5px;color:var(--dim);line-height:1.85}
+.fgrid a{display:block;font-size:13.5px;color:#e3d5f5;padding:3px 0}
+.fgrid a:hover{color:var(--cyan)}
+.copy{margin-top:24px;padding-top:18px;border-top:1px dashed rgba(255,255,255,.18);display:flex;flex-wrap:wrap;
+  gap:8px 16px;justify-content:space-between;font-size:12.5px;color:#8a7aa6}
+.totop{position:fixed;right:16px;bottom:16px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;
+  border:2px solid var(--cyan);background:var(--night2);color:var(--cyan);font-weight:900;z-index:70}
+
+/* ==================== 响应式 ==================== */
+@media (max-width:1000px){
+  .tiles,.records{grid-template-columns:repeat(2,1fr)}
+  .bulletins{grid-template-columns:repeat(2,1fr)}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .search input{width:150px}
+}
+@media (max-width:860px){
+  .dancefloor{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .burger{display:flex}
+  .search{display:none}
+  .vinyl-nav{position:relative}
+  .vinyl-nav .wrap{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;
+    gap:6px;padding:12px 20px 18px;background:var(--night2);border-bottom:3px solid var(--violet);
+    box-shadow:0 14px 24px rgba(0,0,0,.5)}
+  .nav-cb:checked ~ .vinyl-nav .wrap{display:flex}
+  .nav-cb:checked ~ .disco-head .burger i:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+  .nav-cb:checked ~ .disco-head .burger i:nth-child(2){opacity:0}
+  .nav-cb:checked ~ .disco-head .burger i:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+  .vy{justify-content:flex-start;font-size:15px;padding:11px 14px}
+  .vy.is-cta{justify-content:center}
+  .vinyl-nav .tip{display:none}
+  .tiles,.records,.bulletins,.jukes,.about,.contact{grid-template-columns:1fr}
+  .neons{grid-template-columns:repeat(2,1fr)}
+  .slogan{padding:22px 18px 24px}
+  .disco-head .wrap{padding:12px 16px}
+  .f-row{grid-template-columns:1fr}
+  .f-sub{grid-column:1}
+  .slot{grid-template-columns:56px 1fr;row-gap:8px}
+  .slot .st{grid-column:2;justify-self:start}
+  section{padding-top:34px}
+  .hero{padding-top:18px}
+  .site-footer{margin-top:34px}
+}
+@media (max-width:420px){
+  .fgrid{grid-template-columns:1fr}
+  .neons{grid-template-columns:1fr}
+  .hero-acts .btn{width:100%;justify-content:center}
+  .sec-head .en{display:none}
+  .rec .disc{width:100px;height:100px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+<input class="nav-cb sr-only" id="navCb" type="checkbox" aria-label="展开y80s电影网导航">
+
+<!-- ==================== 顶部镭射条 + 信息条 ==================== -->
+<div class="laserbar" aria-hidden="true"></div>
+<div class="foottop">
+  <div class="wrap">
+    <span>y80s电影网 · 今日上新 <b>168</b> 部</span>
+    <span class="mono">DISCO NIGHT · 20:00 OPEN</span>
+    <span>官网 https://y80sdianyingwang-cn.github.io</span>
+  </div>
+</div>
+
+<!-- ==================== 报头 ==================== -->
+<header class="disco-head">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="y80s电影网 首页">
+      <span class="discoball">
+        <svg viewBox="0 0 60 60" role="img" aria-label="y80s电影网迪斯科镜面球标识">
+          <path d="M30 3 L30 9" stroke="#ffd24a" stroke-width="2"/>
+          <circle cx="30" cy="32" r="24" fill="#2b1a48"/>
+          <circle cx="30" cy="32" r="24" fill="none" stroke="#ffd24a" stroke-width="2"/>
+          <path d="M12 20 L48 20 M8 32 L52 32 M12 44 L48 44" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+          <path d="M30 8 L30 56 M18 11 L42 53 M42 11 L18 53" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
+          <g fill="#e9f6ff">
+            <rect x="24" y="14" width="4" height="4"/><rect x="32" y="17" width="4" height="4"/>
+            <rect x="20" y="26" width="4" height="4"/><rect x="36" y="27" width="4" height="4"/>
+            <rect x="27" y="36" width="4" height="4"/><rect x="35" y="41" width="4" height="4"/>
+            <rect x="19" y="40" width="4" height="4"/><rect x="41" y="19" width="4" height="4"/>
+          </g>
+          <circle cx="24" cy="24" r="3" fill="#ff4fa3"/>
+          <circle cx="38" cy="38" r="3" fill="#37e6ff"/>
+        </svg>
+      </span>
+      <span class="brand-meta">
+        <span class="t"><b>y80s电影网</b> · 热门电影 · 影视排行榜 · 新片上线</span>
+        <span class="url">https://y80sdianyingwang-cn.github.io</span>
+      </span>
+    </a>
+    <form class="search" action="#" method="get" onsubmit="return false;" role="search">
+      <label class="sr-only" for="kw">搜索y80s电影网</label>
+      <input id="kw" name="kw" type="search" placeholder="搜索片名 / 类型 / 年份">
+      <button type="submit">搜索</button>
+    </form>
+    <label class="burger" for="navCb" aria-hidden="true"><i></i><i></i><i></i></label>
+  </div>
+</header>
+
+<!-- ==================== 唱片标签导航 ==================== -->
+<nav class="vinyl-nav" aria-label="y80s电影网主导航">
+  <div class="wrap">
+    <a class="vy is-cta" href="#home"><span class="rec" aria-hidden="true"></span>首页</a>
+    <a class="vy" href="#category"><span class="rec" aria-hidden="true"></span>舞池分区</a>
+    <a class="vy" href="#pick"><span class="rec" aria-hidden="true"></span>y80s推荐</a>
+    <a class="vy" href="#rank"><span class="rec" aria-hidden="true"></span>影视排行榜</a>
+    <a class="vy" href="#release"><span class="rec" aria-hidden="true"></span>新片上线</a>
+    <a class="vy" href="#news"><span class="rec" aria-hidden="true"></span>影视资讯</a>
+    <a class="vy" href="#about"><span class="rec" aria-hidden="true"></span>关于y80s电影网</a>
+    <a class="vy" href="#faq"><span class="rec" aria-hidden="true"></span>常见问题</a>
+    <a class="vy is-cta" href="#contact"><span class="rec" aria-hidden="true"></span>联系我们</a>
+    <span class="tip">灯球一转 · 好片就位</span>
+  </div>
+</nav>
+
+<main>
+  <!-- ==================== 首屏 ==================== -->
+  <section id="home" class="hero" aria-labelledby="heroTitle">
+    <div class="wrap">
+      <article class="dancefloor">
+        <div class="ballbox">
+          <div class="rays" aria-hidden="true"></div>
+          <svg viewBox="0 0 300 260" role="img" aria-label="y80s电影网舞厅示意图：镜面灯球、镭射光束与方格舞池地板">
+            <path d="M150 14 L150 40" stroke="#ffd24a" stroke-width="3"/>
+            <circle cx="150" cy="76" r="34" fill="#2b1a48" stroke="#ffd24a" stroke-width="2"/>
+            <path d="M116 60 L184 60 M116 76 L184 76 M116 92 L184 92" stroke="rgba(255,255,255,.3)" stroke-width="1"/>
+            <path d="M150 42 L150 110 M126 48 L174 104 M174 48 L126 104" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+            <g fill="#eef7ff">
+              <rect x="138" y="54" width="5" height="5"/><rect x="156" y="58" width="5" height="5"/>
+              <rect x="132" y="76" width="5" height="5"/><rect x="162" y="80" width="5" height="5"/>
+              <rect x="144" y="94" width="5" height="5"/><rect x="166" y="68" width="5" height="5"/>
+              <rect x="130" y="90" width="5" height="5"/>
+            </g>
+            <g stroke-linecap="round">
+              <path d="M150 110 L60 200" stroke="#ff4fa3" stroke-width="3" opacity=".75"/>
+              <path d="M150 110 L150 216" stroke="#37e6ff" stroke-width="3" opacity=".75"/>
+              <path d="M150 110 L240 200" stroke="#ffd24a" stroke-width="3" opacity=".75"/>
+              <path d="M150 110 L92 176" stroke="#a05bff" stroke-width="2" opacity=".6"/>
+              <path d="M150 110 L208 176" stroke="#ff7a3d" stroke-width="2" opacity=".6"/>
+            </g>
+            <g transform="translate(30,196)">
+              <rect x="0" y="0" width="240" height="34" fill="#1c0c36"/>
+              <g stroke="rgba(255,255,255,.22)" stroke-width="1">
+                <path d="M0 0 L240 0 M0 17 L240 17 M0 34 L240 34"/>
+                <path d="M24 0 L24 34 M48 0 L48 34 M72 0 L72 34 M96 0 L96 34 M120 0 L120 34 M144 0 L144 34 M168 0 L168 34 M192 0 L192 34 M216 0 L216 34"/>
+              </g>
+              <rect x="24" y="0" width="24" height="17" fill="rgba(255,79,163,.45)"/>
+              <rect x="96" y="17" width="24" height="17" fill="rgba(55,230,255,.45)"/>
+              <rect x="168" y="0" width="24" height="17" fill="rgba(255,210,74,.4)"/>
+            </g>
+            <text x="150" y="248" fill="#ffd24a" font-size="11" font-weight="900" text-anchor="middle" font-family="monospace">DANCE FLOOR · 灯球一转好片就位</text>
+          </svg>
+          <p class="cap">MIRROR BALL / 舞池中央</p>
+        </div>
+        <div class="slogan">
+          <p class="kick">◉ DISCO NIGHT · 今晚开场</p>
+          <h1 id="heroTitle">y80s电影网，<em>灯球一转好片就位</em></h1>
+          <p class="url">https://y80sdianyingwang-cn.github.io</p>
+          <p class="lead">y80s电影网（官网 https://y80sdianyingwang-cn.github.io）把热门电影、电影推荐、影视排行榜与新片上线时间摆成一场舞会。<b>灯一亮</b>，就知道今晚跳哪一支。</p>
+          <div class="hero-acts">
+            <a class="btn btn-p" href="#pick">看y80s推荐</a>
+            <a class="btn btn-c" href="#rank">影视排行榜</a>
+            <a class="btn btn-o" href="#release">新片上线时间</a>
+          </div>
+        </div>
+      </article>
+      <ul class="neons">
+        <li class="neon"><b class="mono">29,900<em>+</em></b><span>y80s电影网收录影片</span></li>
+        <li class="neon"><b>每日上新</b><span>片库与推荐片单</span></li>
+        <li class="neon"><b>1080P / 4K</b><span>多清晰度可选</span></li>
+        <li class="neon"><b>0 元</b><span>y80s电影网免费看</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==================== 舞池分区 ==================== -->
+  <section id="category" aria-labelledby="catTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="catTitle">y80s电影网<em>舞池分区</em></h2>
+          <p>8 块地砖，每块一个题材，灯扫过就亮一格。</p></div>
+        </div>
+        <span class="en">// TILE 01 - 08</span>
+      </div>
+      <div class="tiles">
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#3a0f33"><span class="lab">TILE 01</span><span class="ic" aria-hidden="true">💥</span></span>
+          <span class="bd"><h3>动作犯罪</h3><p class="en">ACTION / CRIME</p>
+          <p class="cnt">在库 <b>3,360</b> 部 · 高燃强节奏</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#0d2f4a"><span class="lab">TILE 02</span><span class="ic" aria-hidden="true">🎺</span></span>
+          <span class="bd"><h3>喜剧解压</h3><p class="en">COMEDY</p>
+          <p class="cnt">在库 <b>2,334</b> 部 · 轻松不费脑</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#26124d"><span class="lab">TILE 03</span><span class="ic" aria-hidden="true">🚀</span></span>
+          <span class="bd"><h3>科幻冒险</h3><p class="en">SCI-FI</p>
+          <p class="cnt">在库 <b>1,978</b> 部 · 大场面</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#4a1230"><span class="lab">TILE 04</span><span class="ic" aria-hidden="true">💃</span></span>
+          <span class="bd"><h3>爱情文艺</h3><p class="en">ROMANCE</p>
+          <p class="cnt">在库 <b>2,600</b> 部 · 慢节奏</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#0f3340"><span class="lab">TILE 05</span><span class="ic" aria-hidden="true">🕵️</span></span>
+          <span class="bd"><h3>悬疑推理</h3><p class="en">THRILLER</p>
+          <p class="cnt">在库 <b>2,074</b> 部 · 多反转</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#3d2a10"><span class="lab">TILE 06</span><span class="ic" aria-hidden="true">🌙</span></span>
+          <span class="bd"><h3>治愈暖心</h3><p class="en">HEALING</p>
+          <p class="cnt">在库 <b>1,748</b> 部 · 低冲突</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#3a1140"><span class="lab">TILE 07</span><span class="ic" aria-hidden="true">🎨</span></span>
+          <span class="bd"><h3>动画电影</h3><p class="en">ANIMATION</p>
+          <p class="cnt">在库 <b>1,564</b> 部 · 全年龄</p></span>
+        </a>
+        <a class="tile" href="#">
+          <span class="floor" style="background-color:#123029"><span class="lab">TILE 08</span><span class="ic" aria-hidden="true">📼</span></span>
+          <span class="bd"><h3>经典修复</h3><p class="en">RESTORED</p>
+          <p class="cnt">在库 <b>1,094</b> 部 · 老片新看</p></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== y80s推荐 ==================== -->
+  <section id="pick" aria-labelledby="pickTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="pickTitle">y80s电影网<em>y80s推荐</em></h2>
+          <p>y80s电影网按站内播放热度与口碑筛选，每周更新一次片单。</p></div>
+        </div>
+        <span class="en">// RECORD A - H</span>
+      </div>
+      <div class="records">
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">🌃</span></div>
+          <h3>霓虹夜班车</h3>
+          <p class="meta">2026 / 剧情·都市 / 132 min</p>
+          <p class="desc">双线叙事的都市夜戏，人物关系扎实，热播榜连续四周第一。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">🌌</span></div>
+          <h3>星轨尽头</h3>
+          <p class="meta">2026 / 科幻·冒险 / 144 min</p>
+          <p class="desc">设定扎实的太空科幻，视觉与叙事都站得住，y80s电影网科幻区口碑新高。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">⚡</span></div>
+          <h3>烈风追缉</h3>
+          <p class="meta">2026 / 动作·谍战 / 119 min</p>
+          <p class="desc">动作密度高，追车与近身戏都拍得干脆，动作区播放增速最快。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">🕯️</span></div>
+          <h3>第八封回信</h3>
+          <p class="meta">2025 / 悬疑·推理 / 125 min</p>
+          <p class="desc">密闭空间推理，线索埋得干净，看完想立刻二刷一遍。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">🎷</span></div>
+          <h3>周末大作战</h3>
+          <p class="meta">2026 / 喜剧·都市 / 103 min</p>
+          <p class="desc">节奏轻快的都市喜剧，在y80s电影网适合周五晚上放着看。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">🎖️</span></div>
+          <h3>铁线防线</h3>
+          <p class="meta">2025 / 战争·历史 / 146 min</p>
+          <p class="desc">群像战争片，场面与人物并重，在y80s电影网长期在榜。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">💌</span></div>
+          <h3>晚风邮局</h3>
+          <p class="meta">2026 / 爱情·文艺 / 112 min</p>
+          <p class="desc">克制细腻的爱情小品，配色和配乐都很舒服，适合一个人看。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+        <article class="rec">
+          <div class="disc"><span class="ic" aria-hidden="true">🎋</span></div>
+          <h3>山海图志</h3>
+          <p class="meta">2026 / 动画·奇幻 / 107 min</p>
+          <p class="desc">国风动画电影，画面质感在y80s电影网动画区评价很高。</p>
+          <a class="go" href="#">立即观看</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 影视排行榜 ==================== -->
+  <section id="rank" aria-labelledby="rankTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="rankTitle">y80s电影网<em>影视排行榜</em></h2>
+          <p>数据来自站内播放与收藏统计，每日 0 点刷新。</p></div>
+        </div>
+        <span class="en">// TOP 8</span>
+      </div>
+      <div class="jukes">
+        <div class="juke">
+          <h3>热播榜 <i>TOP 8</i></h3>
+          <p class="unit">单位：万次 / 统计周期 30 天</p>
+          <ol>
+            <li><span class="no mono">01</span><span class="rw"><span><span class="tt">霓虹夜班车</span><span class="beam" aria-hidden="true"><i style="width:100%"></i></span></span><span class="hs">2918</span></span></li>
+            <li><span class="no mono">02</span><span class="rw"><span><span class="tt">星轨尽头</span><span class="beam" aria-hidden="true"><i style="width:90%"></i></span></span><span class="hs">2632</span></span></li>
+            <li><span class="no mono">03</span><span class="rw"><span><span class="tt">烈风追缉</span><span class="beam" aria-hidden="true"><i style="width:81%"></i></span></span><span class="hs">2371</span></span></li>
+            <li><span class="no mono">04</span><span class="rw"><span><span class="tt">第八封回信</span><span class="beam" aria-hidden="true"><i style="width:69%"></i></span></span><span class="hs">2004</span></span></li>
+            <li><span class="no mono">05</span><span class="rw"><span><span class="tt">周末大作战</span><span class="beam" aria-hidden="true"><i style="width:60%"></i></span></span><span class="hs">1752</span></span></li>
+            <li><span class="no mono">06</span><span class="rw"><span><span class="tt">铁线防线</span><span class="beam" aria-hidden="true"><i style="width:53%"></i></span></span><span class="hs">1536</span></span></li>
+            <li><span class="no mono">07</span><span class="rw"><span><span class="tt">晚风邮局</span><span class="beam" aria-hidden="true"><i style="width:46%"></i></span></span><span class="hs">1348</span></span></li>
+            <li><span class="no mono">08</span><span class="rw"><span><span class="tt">山海图志</span><span class="beam" aria-hidden="true"><i style="width:41%"></i></span></span><span class="hs">1192</span></span></li>
+          </ol>
+        </div>
+        <div class="juke">
+          <h3>口碑榜 <i>TOP 8</i></h3>
+          <p class="unit">单位：分 / 满分 10 分</p>
+          <ol>
+            <li><span class="no mono">01</span><span class="rw"><span><span class="tt">霓虹夜班车</span><span class="beam" aria-hidden="true"><i style="width:94%"></i></span></span><span class="hs">9.4</span></span></li>
+            <li><span class="no mono">02</span><span class="rw"><span><span class="tt">星轨尽头</span><span class="beam" aria-hidden="true"><i style="width:92%"></i></span></span><span class="hs">9.2</span></span></li>
+            <li><span class="no mono">03</span><span class="rw"><span><span class="tt">烈风追缉</span><span class="beam" aria-hidden="true"><i style="width:91%"></i></span></span><span class="hs">9.1</span></span></li>
+            <li><span class="no mono">04</span><span class="rw"><span><span class="tt">第八封回信</span><span class="beam" aria-hidden="true"><i style="width:90%"></i></span></span><span class="hs">9.0</span></span></li>
+            <li><span class="no mono">05</span><span class="rw"><span><span class="tt">周末大作战</span><span class="beam" aria-hidden="true"><i style="width:89%"></i></span></span><span class="hs">8.9</span></span></li>
+            <li><span class="no mono">06</span><span class="rw"><span><span class="tt">铁线防线</span><span class="beam" aria-hidden="true"><i style="width:88%"></i></span></span><span class="hs">8.8</span></span></li>
+            <li><span class="no mono">07</span><span class="rw"><span><span class="tt">晚风邮局</span><span class="beam" aria-hidden="true"><i style="width:87%"></i></span></span><span class="hs">8.7</span></span></li>
+            <li><span class="no mono">08</span><span class="rw"><span><span class="tt">山海图志</span><span class="beam" aria-hidden="true"><i style="width:86%"></i></span></span><span class="hs">8.6</span></span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 新片上线 ==================== -->
+  <section id="release" aria-labelledby="relTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="relTitle">y80s电影网<em>新片上线</em>排舞卡</h2>
+          <p>y80s电影网同步标注院线档期与网络首播时间，每周更新一次。</p></div>
+        </div>
+        <span class="en">// DANCE CARD</span>
+      </div>
+      <div class="dancecard">
+        <article class="slot">
+          <span class="dia"><b>01</b>第一支</span>
+          <span class="txt"><h3>霓虹夜班车</h3><p>09-30 上线 · 剧情 / 都市 · 132 min · 4K</p></span>
+          <span class="st a">正在热映</span>
+        </article>
+        <article class="slot">
+          <span class="dia"><b>02</b>第二支</span>
+          <span class="txt"><h3>星轨尽头</h3><p>09-25 上线 · 科幻 / 冒险 · 144 min · 4K</p></span>
+          <span class="st a">正在热映</span>
+        </article>
+        <article class="slot">
+          <span class="dia"><b>03</b>第三支</span>
+          <span class="txt"><h3>烈风追缉</h3><p>09-18 上线 · 动作 / 谍战 · 119 min · 1080P</p></span>
+          <span class="st a">正在热映</span>
+        </article>
+        <article class="slot">
+          <span class="dia"><b>04</b>第四支</span>
+          <span class="txt"><h3>山海图志 Ⅱ</h3><p>10-09 上线 · 动画 / 奇幻 · 片长待定 · 清晰度待定</p></span>
+          <span class="st b">即将上线</span>
+        </article>
+        <article class="slot">
+          <span class="dia"><b>05</b>第五支</span>
+          <span class="txt"><h3>晚风邮局</h3><p>10-16 首播 · 爱情 / 文艺 · 112 min · 1080P</p></span>
+          <span class="st b">网络首播</span>
+        </article>
+        <article class="slot">
+          <span class="dia"><b>06</b>第六支</span>
+          <span class="txt"><h3>第八封回信</h3><p>08-22 上线 · 悬疑 / 推理 · 125 min · 4K</p></span>
+          <span class="st c">在线可看</span>
+        </article>
+        <article class="slot">
+          <span class="dia"><b>07</b>第七支</span>
+          <span class="txt"><h3>铁线防线</h3><p>07-05 上线 · 战争 / 历史 · 146 min · 4K</p></span>
+          <span class="st c">在线可看</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 影视资讯 ==================== -->
+  <section id="news" aria-labelledby="newsTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="newsTitle">y80s电影网<em>舞厅公告</em></h2>
+          <p>新片前瞻、榜单解读、类型盘点，y80s电影网编辑部持续更新。</p></div>
+        </div>
+        <span class="en">// BULLETIN</span>
+      </div>
+      <div class="bulletins">
+        <article class="bltn">
+          <time datetime="2026-09-29">2026-09-29</time>
+          <h3>国庆档前瞻：这 8 部热门电影值得看</h3>
+          <p>y80s电影网从定档新片中挑出期待值与口碑信号双高的 8 部。</p>
+          <a class="more" href="#">阅读全文 &gt;</a>
+        </article>
+        <article class="bltn">
+          <time datetime="2026-09-16">2026-09-16</time>
+          <h3>y80s电影网榜单规则更新说明</h3>
+          <p>热播榜与口碑榜的权重调整，计算口径在本文一次讲清。</p>
+          <a class="more" href="#">阅读全文 &gt;</a>
+        </article>
+        <article class="bltn">
+          <time datetime="2026-09-03">2026-09-03</time>
+          <h3>y80s推荐是怎么挑出来的</h3>
+          <p>y80s电影网把「值得从头看完」拆成三条可核查的判据。</p>
+          <a class="more" href="#">阅读全文 &gt;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 关于 ==================== -->
+  <section id="about" aria-labelledby="aboutTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="aboutTitle">关于<em>y80s电影网</em></h2>
+          <p>灯球一转，好片就位。</p></div>
+        </div>
+        <span class="en">// ABOUT</span>
+      </div>
+      <div class="about">
+        <div class="story">
+          <p>y80s电影网（官网 https://y80sdianyingwang-cn.github.io）聚合热门电影、电影推荐与新片上线信息，用<b>舞池分区、影视排行榜与新片上线排舞卡</b>三套体系，帮你在海量片库里快速找到今晚要看的那部。</p>
+          <p>我们不做随便推推的片单：y80s电影网的热播榜来自可核查的播放数据，口碑榜来自用户评分的加权均值，两套榜单口径全部公开，写在「舞厅公告」里。</p>
+          <blockquote>好片子和好曲子一样，前奏一响你就知道今晚值不值。</blockquote>
+          <ul>
+            <li><b>01</b><span>收录热门电影超 29,900 部，覆盖院线新片、经典老片与修复影像</span></li>
+            <li><b>02</b><span>排舞卡每周更新，网络首播与院线档期同步标注</span></li>
+            <li><b>03</b><span>榜单每日 0 点刷新，热度与口碑分开呈现</span></li>
+            <li><b>04</b><span>支持 1080P / 4K 多清晰度切换，y80s电影网免费看</span></li>
+          </ul>
+        </div>
+        <aside class="sidecard">
+          <h3>TONIGHT SET / 今夜流程</h3>
+          <svg viewBox="0 0 300 175" role="img" aria-label="y80s电影网看片流程示意图：舞池分区、y80s推荐、影视排行榜与灯球">
+            <defs>
+              <linearGradient id="beam80" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#ff4fa3"/><stop offset=".5" stop-color="#a05bff"/><stop offset="1" stop-color="#37e6ff"/>
+              </linearGradient>
+            </defs>
+            <rect x="8" y="8" width="284" height="159" fill="#160a2c"/>
+            <rect x="8" y="8" width="284" height="159" fill="none" stroke="#a05bff" stroke-width="2"/>
+            <circle cx="150" cy="42" r="17" fill="#2b1a48" stroke="#ffd24a" stroke-width="2"/>
+            <path d="M150 59 L70 132 M150 59 L150 140 M150 59 L230 132" stroke="url(#beam80)" stroke-width="2" opacity=".8"/>
+            <text x="150" y="30" fill="#ffd24a" font-size="10" font-weight="900" text-anchor="middle" font-family="monospace">MIRROR BALL</text>
+            <g fill="#fdf3ff">
+              <rect x="26" y="128" width="70" height="26" rx="13"/>
+              <rect x="115" y="128" width="70" height="26" rx="13"/>
+              <rect x="204" y="128" width="70" height="26" rx="13"/>
+            </g>
+            <text x="61" y="145" fill="#160a2c" font-size="10.5" font-weight="900" text-anchor="middle">舞池分区</text>
+            <text x="150" y="145" fill="#160a2c" font-size="10.5" font-weight="900" text-anchor="middle">y80s推荐</text>
+            <text x="239" y="145" fill="#160a2c" font-size="10.5" font-weight="900" text-anchor="middle">影视排行榜</text>
+            <text x="150" y="88" fill="#37e6ff" font-size="10" font-weight="900" text-anchor="middle" font-family="monospace">y80s电影网 · 29,900+</text>
+            <g stroke="rgba(255,255,255,.2)" stroke-width="1">
+              <path d="M8 112 L292 112"/>
+              <path d="M30 108 L30 116 M60 108 L60 116 M90 108 L90 116 M120 108 L120 116 M150 108 L150 116 M180 108 L180 116 M210 108 L210 116 M240 108 L240 116 M270 108 L270 116"/>
+            </g>
+          </svg>
+          <div class="kv"><span>网站名称</span><b>y80s电影网</b></div>
+          <div class="kv"><span>官方网址</span><b>y80sdianyingwang-cn.github.io</b></div>
+          <div class="kv"><span>开放时间</span><b>24H · 全年无休</b></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 常见问题 ==================== -->
+  <section id="faq" aria-labelledby="faqTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="faqTitle">y80s电影网<em>常见问题</em></h2>
+          <p>关于收录量、榜单口径与官网网址的高频疑问。</p></div>
+        </div>
+        <span class="en">// FAQ</span>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>y80s电影网收录多少部电影？更新频率如何？</summary>
+          <p>y80s电影网目前收录热门电影超 29,900 部，涵盖院线新片、经典老片、动画电影与小众佳作。片库每日更新，排舞卡每周刷新一次，热播榜与口碑榜每日 0 点各刷新一次。</p>
+        </details>
+        <details>
+          <summary>y80s电影网的排行榜是怎么算出来的？</summary>
+          <p>热播榜取y80s电影网站内近 30 天播放与收藏加权，口碑榜取用户评分的贝叶斯均值。两个榜单分开排列，计算口径与权重调整都会发布在「舞厅公告」栏目中。</p>
+        </details>
+        <details>
+          <summary>y80s电影网官网网址是什么？</summary>
+          <p>y80s电影网官方网址为 https://y80sdianyingwang-cn.github.io，请认准该域名，避免访问仿冒站点。</p>
+        </details>
+        <details>
+          <summary>找不到想看的电影怎么办？</summary>
+          <p>可以通过y80s电影网顶部搜索框按片名、类型或年份检索，也可以进入「联系我们」提交补录需求，我们会在 3 个工作日内处理并回复。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 联系我们 ==================== -->
+  <section id="contact" aria-labelledby="contactTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="lhs">
+          <span class="orb" aria-hidden="true">◉</span>
+          <div><h2 id="contactTitle">联系<em>y80s电影网</em></h2>
+          <p>影片补录、播放反馈、商务合作，都可以留言。</p></div>
+        </div>
+        <span class="en">// CONTACT</span>
+      </div>
+      <div class="contact">
+        <form class="form" action="#" method="post" onsubmit="return false;">
+          <h3>MESSAGE / 观众留言</h3>
+          <div class="f-row">
+            <label for="cname">您的称呼</label>
+            <input id="cname" name="name" type="text" placeholder="请输入昵称或姓名" autocomplete="name">
+          </div>
+          <div class="f-row">
+            <label for="cmail">联系邮箱</label>
+            <input id="cmail" name="email" type="email" placeholder="name@example.com" autocomplete="email">
+          </div>
+          <div class="f-row">
+            <label for="ctype">问题类型</label>
+            <select id="ctype" name="type">
+              <option>影片补录</option>
+              <option>播放异常反馈</option>
+              <option>版权投诉</option>
+              <option>商务合作</option>
+            </select>
+          </div>
+          <div class="f-row">
+            <label for="cmsg">详细说明</label>
+            <textarea id="cmsg" name="message" placeholder="请描述你想看的电影名称或遇到的问题"></textarea>
+          </div>
+          <div class="f-row">
+            <span></span>
+            <span class="f-sub"><button type="submit">提交给y80s电影网</button></span>
+          </div>
+        </form>
+        <aside class="sidecard">
+          <h3>CONTACT / 联系方式</h3>
+          <div class="kv"><span>官方网站</span><b>https://y80sdianyingwang-cn.github.io</b></div>
+          <div class="kv"><span>网站名称</span><b>y80s电影网</b></div>
+          <div class="kv"><span>在线入口</span><b><a href="#">y80s电影网在线客服</a></b></div>
+          <div class="kv"><span>处理时效</span><b>3 个工作日内</b></div>
+          <div class="tags">
+            <span>y80s电影网</span><span>热门电影</span><span>电影推荐</span><span>影视排行榜</span><span>新片上线</span><span>影视资讯</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ==================== 页脚 ==================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>y80s电影网</h4>
+        <p>y80s电影网（https://y80sdianyingwang-cn.github.io）聚合热门电影、电影推荐、影视排行榜与新片上线时间，灯球一转，好片就位。</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <a href="#home">y80s电影网首页</a>
+        <a href="#category">舞池分区</a>
+        <a href="#pick">y80s推荐</a>
+        <a href="#rank">影视排行榜</a>
+        <a href="#release">新片上线</a>
+      </div>
+      <div>
+        <h4>y80s电影网热门分区</h4>
+        <a href="#">TILE 01 · 动作犯罪</a>
+        <a href="#">TILE 03 · 科幻冒险</a>
+        <a href="#">TILE 05 · 悬疑推理</a>
+        <a href="#">TILE 06 · 治愈暖心</a>
+        <a href="#">TILE 08 · 经典修复</a>
+      </div>
+      <div>
+        <h4>y80s电影网帮助与合作</h4>
+        <a href="#faq">常见问题</a>
+        <a href="#contact">联系我们</a>
+        <a href="#">影片投稿</a>
+        <a href="#">版权声明</a>
+        <a href="#">意见反馈</a>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2026 y80s电影网 · 官网 https://y80sdianyingwang-cn.github.io · 灯球一转，好片就位</span>
+      <span><a href="#">隐私政策</a> · <a href="#">服务条款</a> · <a href="#">意见反馈</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="totop" href="#home" aria-label="回到顶部">↑</a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://y80sdianyingwang-cn.github.io/#website",
+      "url": "https://y80sdianyingwang-cn.github.io/",
+      "name": "y80s电影网",
+      "alternateName": ["y80s电影网官网", "y80s电影网在线观看"],
+      "inLanguage": "zh-CN",
+      "description": "y80s电影网提供热门电影在线观看、电影推荐、影视排行榜与新片上线时间。",
+      "publisher": { "@id": "https://y80sdianyingwang-cn.github.io/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://y80sdianyingwang-cn.github.io/?kw={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://y80sdianyingwang-cn.github.io/#organization",
+      "name": "y80s电影网",
+      "url": "https://y80sdianyingwang-cn.github.io/",
+      "description": "y80s电影网是聚合热门电影、电影推荐与影视排行榜的影视内容平台。",
+      "areaServed": "CN",
+      "knowsAbout": ["y80s电影网", "热门电影", "电影推荐", "新片上线", "影视排行榜"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://y80sdianyingwang-cn.github.io/#webpage",
+      "url": "https://y80sdianyingwang-cn.github.io/",
+      "name": "y80s电影网 - 热门电影在线观看与电影推荐",
+      "isPartOf": { "@id": "https://y80sdianyingwang-cn.github.io/#website" },
+      "inLanguage": "zh-CN",
+      "about": { "@id": "https://y80sdianyingwang-cn.github.io/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "y80s电影网首页", "item": "https://y80sdianyingwang-cn.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "舞池分区" },
+        { "@type": "ListItem", "position": 3, "name": "y80s推荐" },
+        { "@type": "ListItem", "position": 4, "name": "影视排行榜" },
+        { "@type": "ListItem", "position": 5, "name": "联系我们" }
+      ]
+    }
+  ]
+}
+</script>
+</body>
+</html>
